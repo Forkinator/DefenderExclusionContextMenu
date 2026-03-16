@@ -48,22 +48,10 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ".\Install-DefenderExclusion
 powershell -NoProfile -ExecutionPolicy Bypass -File ".\Install-DefenderExclusionContextMenu.ps1" -Uninstall
 ```
 
-## Preview (Screenshot / GIF)
+## Preview
 
-Add your visuals to the `assets` folder with these names:
-
-- `assets/context-menu.png` (Explorer right-click menu screenshot)
-- `assets/demo.gif` (short install/use demo)
-
-Then uncomment this section in the README:
-
-```markdown
 ### Context Menu
 ![Context menu screenshot](./assets/context-menu.png)
-
-### Demo
-![Demo GIF](./assets/demo.gif)
-```
 
 ## Notes
 
